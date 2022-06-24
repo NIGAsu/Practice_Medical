@@ -567,7 +567,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Medical.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "6.0.1"
+          "Microsoft.EntityFrameworkCore": "6.0.1",
+          "System.Configuration.ConfigurationManager": "4.4.1"
         },
         "compile": {
           "bin/placeholder/Medical.Application.dll": {}

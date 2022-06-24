@@ -1,4 +1,5 @@
 using Medical.Persistence;
+
 namespace Medical.WebApi
 {
     public class Program
