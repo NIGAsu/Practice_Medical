@@ -1,0 +1,12 @@
+C:\Users\vladi\source\repos\Medical\Medical.Domain\bin\Debug\net6.0\Medical.Domain.deps.json
+C:\Users\vladi\source\repos\Medical\Medical.Domain\bin\Debug\net6.0\Medical.Domain.dll
+C:\Users\vladi\source\repos\Medical\Medical.Domain\bin\Debug\net6.0\Medical.Domain.pdb
+C:\Users\vladi\source\repos\Medical\Medical.Domain\obj\Debug\net6.0\Medical.Domain.csproj.AssemblyReference.cache
+C:\Users\vladi\source\repos\Medical\Medical.Domain\obj\Debug\net6.0\Medical.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladi\source\repos\Medical\Medical.Domain\obj\Debug\net6.0\Medical.Domain.AssemblyInfoInputs.cache
+C:\Users\vladi\source\repos\Medical\Medical.Domain\obj\Debug\net6.0\Medical.Domain.AssemblyInfo.cs
+C:\Users\vladi\source\repos\Medical\Medical.Domain\obj\Debug\net6.0\Medical.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vladi\source\repos\Medical\Medical.Domain\obj\Debug\net6.0\Medical.Domain.dll
+C:\Users\vladi\source\repos\Medical\Medical.Domain\obj\Debug\net6.0\refint\Medical.Domain.dll
+C:\Users\vladi\source\repos\Medical\Medical.Domain\obj\Debug\net6.0\Medical.Domain.pdb
+C:\Users\vladi\source\repos\Medical\Medical.Domain\obj\Debug\net6.0\ref\Medical.Domain.dll

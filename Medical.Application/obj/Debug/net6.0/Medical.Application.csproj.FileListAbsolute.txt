@@ -1,0 +1,15 @@
+C:\Users\vladi\source\repos\Medical\Medical.Application\bin\Debug\net6.0\Medical.Application.deps.json
+C:\Users\vladi\source\repos\Medical\Medical.Application\bin\Debug\net6.0\Medical.Application.dll
+C:\Users\vladi\source\repos\Medical\Medical.Application\bin\Debug\net6.0\Medical.Application.pdb
+C:\Users\vladi\source\repos\Medical\Medical.Application\bin\Debug\net6.0\Medical.Domain.dll
+C:\Users\vladi\source\repos\Medical\Medical.Application\bin\Debug\net6.0\Medical.Domain.pdb
+C:\Users\vladi\source\repos\Medical\Medical.Application\obj\Debug\net6.0\Medical.Application.csproj.AssemblyReference.cache
+C:\Users\vladi\source\repos\Medical\Medical.Application\obj\Debug\net6.0\Medical.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladi\source\repos\Medical\Medical.Application\obj\Debug\net6.0\Medical.Application.AssemblyInfoInputs.cache
+C:\Users\vladi\source\repos\Medical\Medical.Application\obj\Debug\net6.0\Medical.Application.AssemblyInfo.cs
+C:\Users\vladi\source\repos\Medical\Medical.Application\obj\Debug\net6.0\Medical.Application.csproj.CoreCompileInputs.cache
+C:\Users\vladi\source\repos\Medical\Medical.Application\obj\Debug\net6.0\Medical.Application.csproj.CopyComplete
+C:\Users\vladi\source\repos\Medical\Medical.Application\obj\Debug\net6.0\Medical.Application.dll
+C:\Users\vladi\source\repos\Medical\Medical.Application\obj\Debug\net6.0\refint\Medical.Application.dll
+C:\Users\vladi\source\repos\Medical\Medical.Application\obj\Debug\net6.0\Medical.Application.pdb
+C:\Users\vladi\source\repos\Medical\Medical.Application\obj\Debug\net6.0\ref\Medical.Application.dll
