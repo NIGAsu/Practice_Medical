@@ -3,11 +3,6 @@ using Medical.Persistence.EntityTypeContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Medical.Persistence
 {
@@ -15,13 +10,18 @@ namespace Medical.Persistence
     {
         public static IServiceCollection AddPersistence(this IServiceCollection services, IConfiguration configuration)
         {
-            var connectionString = configuration.GetConnectionString("MySql");            
-            services.AddDbContext<DoctorDbContext>(options =>
+            string? connectionString = configuration.GetConnectionString("MySql");
+            _ = services.AddDbContext<DoctorDbContext>(options =>
             {
-                options.UseMySQL(connectionString);
+                _ = options.UseMySQL(connectionString);
             });
-            services.AddScoped<IDoctorDbContext>(provider =>
-                provider.GetService<DoctorDbContext>() ?? new DoctorDbContext(new DbContextOptions<DoctorDbContext>()));
+
+            
+            var g  = services.AddScoped<IDoctorDbContext>(provider =>
+            provider.GetService<DoctorDbContext>() ?? new DoctorDbContext(new DbContextOptions<DoctorDbContext>()));
+
+            
+
             return services;
         }
     }

@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "0BeVEsM/2NH/j3bSOHYe6FfcPmgF1XwDyjzYK+j8dGMp/WJi+mDWcmXNJ4FQDRaqkc5jPDfPLlwO40tS1Tf0sA==",
+  "dgSpecHash": "xDipUsHeRFa75ilcr+25MskAcHZsEs5jK8APWun9kLiwZLg5Jl9mq3pg+R4LrGtCCHUxNTkOOuJTNFeqtygL2w==",
   "success": true,
   "projectFilePath": "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Persistence\\Medical.Persistence.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\vladi\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\vladi\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\vladi\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\vladi\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
     "C:\\Users\\vladi\\.nuget\\packages\\k4os.compression.lz4.streams\\1.2.6\\k4os.compression.lz4.streams.1.2.6.nupkg.sha512",
     "C:\\Users\\vladi\\.nuget\\packages\\k4os.hash.xxhash\\1.0.6\\k4os.hash.xxhash.1.0.6.nupkg.sha512",
+    "C:\\Users\\vladi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\vladi\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\vladi\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\vladi\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.1\\microsoft.entityframeworkcore.analyzers.6.0.1.nupkg.sha512",

@@ -351,3 +351,5 @@ MigrationBackup/
 /.vs
 /Medical.WebApi/appsettings.json
 /Medical.WebApi/appsettings.json
+/Medical.WebApi/bin
+/Medical.WebApi/obj

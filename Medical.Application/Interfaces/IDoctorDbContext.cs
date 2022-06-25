@@ -7,5 +7,6 @@ namespace Medical.Application.Interfaces
     {
         DbSet<Doctor>? Doctors { get; set; }
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
+        
     }
 }

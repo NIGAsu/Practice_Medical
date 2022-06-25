@@ -4,13 +4,15 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Medical.Persistence.EntityTypeConfiguration
 {
-    public class DoctorConfiguration : IEntityTypeConfiguration<Doctor>
+    public class PatientConfiguration : IEntityTypeConfiguration<Patient>
     {
-        public void Configure(EntityTypeBuilder<Doctor> builder)
+        public void Configure(EntityTypeBuilder<Patient> builder)
         {
-           
-            _ = builder.Property(d => d.Name);
             
+            _ = builder.Property(p => p.Name);
+          
+            
+
         }
     }
 }

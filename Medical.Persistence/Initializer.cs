@@ -2,13 +2,14 @@
 
 namespace Medical.Persistence
 {
-    static public class Initializer
+    public static class Initializer
     {
-        static async public Task Initialize(DoctorDbContext context)
+        public static async Task Initialize(DoctorDbContext context)
         {
-            await context.Database.EnsureDeletedAsync();
-            await context.Database.EnsureCreatedAsync();
+            _ = await context.Database.EnsureDeletedAsync();
+            _ = await context.Database.EnsureCreatedAsync();
         }
+       
     }
 }
-//I think this not really cool,i'am about Async Deleted.
+//I think this not really cool,i'am about Async Deleted.Of course it's just for testing.

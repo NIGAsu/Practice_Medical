@@ -2,7 +2,6 @@
 using Medical.Domain.Entity;
 using Medical.Persistence.EntityTypeConfiguration;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 
 namespace Medical.Persistence.EntityTypeContext
 {
@@ -11,10 +10,16 @@ namespace Medical.Persistence.EntityTypeContext
         public DoctorDbContext(DbContextOptions options) : base(options) { }
 
         public DbSet<Doctor>? Doctors { get; set; }
+        public DbSet<Appointment>? Appointments { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new DoctorConfiguration());
+            _ = modelBuilder.ApplyConfiguration(new DoctorConfiguration());
+
+            _ = modelBuilder.ApplyConfiguration(new AppointmentConfiguration());
+
+            _ = modelBuilder.ApplyConfiguration(new PatientConfiguration());
+
             base.OnModelCreating(modelBuilder);
             
         }

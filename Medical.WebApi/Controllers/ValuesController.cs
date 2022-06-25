@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Medical.Domain.Entity;
+using Medical.Persistence;
+using Medical.Persistence.EntityTypeContext;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Medical.WebApi.Controllers
@@ -7,6 +9,18 @@ namespace Medical.WebApi.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        [HttpGet] public int[] Values() =>  new int[] { 1, 2, 3 };      
+        public ValuesController(DoctorDbContext db)
+        {
+           
+            _ = db.Add(new Doctor()
+            {
+                Id = 0
+            });
+            _ = db.SaveChanges();
+        }
+        [HttpGet]
+        public void Values()
+        {
+        }
     }
 }

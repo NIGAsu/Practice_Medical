@@ -1,4 +1,5 @@
 using Medical.Persistence;
+using Medical.Persistence.EntityTypeContext;
 
 namespace Medical.WebApi
 {
@@ -6,23 +7,29 @@ namespace Medical.WebApi
     {
         public static void Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);
-            builder.Services.AddPersistence(builder.Configuration);
-            builder.Services.AddControllers();
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
+            WebApplicationBuilder? builder = WebApplication.CreateBuilder(args);
 
-            var app = builder.Build();
+            _ = builder.Services.AddControllers();
+            _ = builder.Services.AddEndpointsApiExplorer();
+            _ = builder.Services.AddSwaggerGen();
+            _ = builder.Services.AddPersistence(builder.Configuration);
 
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
+            WebApplication? app = builder.Build();
 
-            app.UseHttpsRedirection();
-            app.UseAuthorization();
-            app.MapControllers();
+
+
+            _ = Task.Run(() => Initializer.Initialize(
+                app.Services.CreateScope()
+                .ServiceProvider.GetRequiredService<DoctorDbContext>()
+                ));
+
+            if (app.Environment.IsDevelopment()) { }
+
+            _ = app.UseSwagger();
+            _ = app.UseSwaggerUI();
+            _ = app.UseHttpsRedirection();
+            _ = app.UseAuthorization();
+            _ = app.MapControllers();
 
             app.Run();
         }
