@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "O1OvD+3qOn+qU5ETvMwflz3gpZxc//Ow7rk0P80DEl36dX24Zt4gQAbZig5nroa6VdHj4Bh2H1QBIGF5e6uH6A==",
+  "dgSpecHash": "TTRC8cP8XevDg04f1hpmBV9Kpo4ROKkxK+bEcXNknaVK+485Ok6kbyV4FjFtRTKiN7Y9XtSzf7UUmbdRe4U+Eg==",
   "success": true,
   "projectFilePath": "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Application\\Medical.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vladi\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\vladi\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\vladi\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\vladi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\vladi\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\vladi\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",

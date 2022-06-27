@@ -5,12 +5,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Medical.Persistence.EntityTypeContext
 {
-    public class DoctorDbContext : DbContext, IDoctorDbContext
+    public class DataBaseContext : DbContext, IDbContext
     {
-        public DoctorDbContext(DbContextOptions options) : base(options) { }
+        public DataBaseContext(DbContextOptions options) : base(options) { }
 
         public DbSet<Doctor>? Doctors { get; set; }
         public DbSet<Appointment>? Appointments { get; set; }
+        public DbSet<Patient>? Patients { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -21,7 +22,7 @@ namespace Medical.Persistence.EntityTypeContext
             _ = modelBuilder.ApplyConfiguration(new PatientConfiguration());
 
             base.OnModelCreating(modelBuilder);
-            
+
         }
     }
 }

@@ -12,6 +12,7 @@ namespace Medical.WebApi
             _ = builder.Services.AddControllers();
             _ = builder.Services.AddEndpointsApiExplorer();
             _ = builder.Services.AddSwaggerGen();
+            
             _ = builder.Services.AddPersistence(builder.Configuration);
 
             WebApplication? app = builder.Build();
@@ -20,7 +21,7 @@ namespace Medical.WebApi
 
             _ = Task.Run(() => Initializer.Initialize(
                 app.Services.CreateScope()
-                .ServiceProvider.GetRequiredService<DoctorDbContext>()
+                .ServiceProvider.GetRequiredService<DataBaseContext>()
                 ));
 
             if (app.Environment.IsDevelopment()) { }

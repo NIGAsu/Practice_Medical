@@ -11,16 +11,12 @@ namespace Medical.Persistence
         public static IServiceCollection AddPersistence(this IServiceCollection services, IConfiguration configuration)
         {
             string? connectionString = configuration.GetConnectionString("MySql");
-            _ = services.AddDbContext<DoctorDbContext>(options =>
+            _ = services.AddDbContext<DataBaseContext>(options =>
             {
                 _ = options.UseMySQL(connectionString);
             });
-
-            
-            var g  = services.AddScoped<IDoctorDbContext>(provider =>
-            provider.GetService<DoctorDbContext>() ?? new DoctorDbContext(new DbContextOptions<DoctorDbContext>()));
-
-            
+            _ = services.AddScoped<IDbContext>(provider =>
+            provider.GetService<DataBaseContext>() ?? new DataBaseContext(new DbContextOptions<DataBaseContext>()));
 
             return services;
         }

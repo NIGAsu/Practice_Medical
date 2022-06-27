@@ -4,7 +4,7 @@ namespace Medical.Persistence
 {
     public static class Initializer
     {
-        public static async Task Initialize(DoctorDbContext context)
+        public static async Task Initialize(DataBaseContext context)
         {
             _ = await context.Database.EnsureDeletedAsync();
             _ = await context.Database.EnsureCreatedAsync();
@@ -12,4 +12,4 @@ namespace Medical.Persistence
        
     }
 }
-//I think this not really cool,i'am about Async Deleted.Of course it's just for testing.
+//Of course it's just for testing.

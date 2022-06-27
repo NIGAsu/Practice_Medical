@@ -8,8 +8,7 @@ namespace Medical.Persistence.EntityTypeConfiguration
     {
         public void Configure(EntityTypeBuilder<Appointment> builder)
         {
-           
-            
+            _ = builder.HasKey(a => a.Id);
         }
     }
 }

@@ -2,11 +2,11 @@
 {
     public class Doctor : BaseEntity
     {
-        public string Name { get; set; } = String.Empty;
+        public string Name { get; set; } = string.Empty;
 
-        public string Speciality { get; set; } = String.Empty;
+        public string Speciality { get; set; } = string.Empty;
 
-        public ICollection<Appointment>? Appointments { get; set; } 
+        public ICollection<Appointment>? Appointments { get; set; }
 
     }
 }

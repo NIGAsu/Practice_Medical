@@ -8,9 +8,8 @@ namespace Medical.Persistence.EntityTypeConfiguration
     {
         public void Configure(EntityTypeBuilder<Doctor> builder)
         {
-           
-            _ = builder.Property(d => d.Name);
-            
+            _ = builder.HasKey(d => d.Id);
+            _ = builder.Property(d => d.Name);            
         }
     }
 }

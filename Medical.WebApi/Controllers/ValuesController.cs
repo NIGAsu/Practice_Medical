@@ -1,7 +1,7 @@
 ﻿using Medical.Domain.Entity;
-using Medical.Persistence;
 using Medical.Persistence.EntityTypeContext;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Medical.WebApi.Controllers
 {
@@ -9,18 +9,19 @@ namespace Medical.WebApi.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        public ValuesController(DoctorDbContext db)
-        {
-           
-            _ = db.Add(new Doctor()
-            {
-                Id = 0
-            });
-            _ = db.SaveChanges();
-        }
+        private readonly DbContext _dataBaseContext;
+
+        public ValuesController(DataBaseContext db) => _dataBaseContext = db;
+
+
         [HttpGet]
         public void Values()
         {
+            _ = _dataBaseContext.Add(new Doctor()
+            {
+                Id = 0
+            });
+            _ = _dataBaseContext.SaveChanges();
         }
     }
 }
