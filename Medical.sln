@@ -9,13 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{ED2D9DF4-FA20-4928-8A81-6C9E36FA01A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medical.Domain", "Medical.Domain\Medical.Domain.csproj", "{F74D51F5-A62F-4E15-A7CB-774A4C150323}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Medical.Domain", "Medical.Domain\Medical.Domain.csproj", "{F74D51F5-A62F-4E15-A7CB-774A4C150323}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medical.Application", "Medical.Application\Medical.Application.csproj", "{942BE6F5-4989-4DB1-9CAC-93DFB6F1BD41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Medical.Application", "Medical.Application\Medical.Application.csproj", "{942BE6F5-4989-4DB1-9CAC-93DFB6F1BD41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medical.WebApi", "Medical.WebApi\Medical.WebApi.csproj", "{E478A8AC-1B59-4204-8654-BDE2872BDFDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Medical.WebApi", "Medical.WebApi\Medical.WebApi.csproj", "{E478A8AC-1B59-4204-8654-BDE2872BDFDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medical.Persistence", "Medical.Persistence\Medical.Persistence.csproj", "{6587BA9B-FD13-4372-AD26-CD44C94600F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Medical.Persistence", "Medical.Persistence\Medical.Persistence.csproj", "{6587BA9B-FD13-4372-AD26-CD44C94600F9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
