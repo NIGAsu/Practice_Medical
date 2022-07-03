@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TTRC8cP8XevDg04f1hpmBV9Kpo4ROKkxK+bEcXNknaVK+485Ok6kbyV4FjFtRTKiN7Y9XtSzf7UUmbdRe4U+Eg==",
+  "dgSpecHash": "nm1QhyCV6CwK//iaHvYpe2fnljHrj0N+LE+v1F8GSbYtFeG7SApAX0XhOmd8rJ3R+PqSBRoqVP1l6Gwm4xMr0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Application\\Medical.Application.csproj",
+  "projectFilePath": "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Application\\Medical.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vladi\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\vladi\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",

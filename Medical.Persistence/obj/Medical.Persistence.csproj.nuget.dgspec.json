@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Persistence\\Medical.Persistence.csproj": {}
+    "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Persistence\\Medical.Persistence.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Application\\Medical.Application.csproj": {
+    "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Application\\Medical.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Application\\Medical.Application.csproj",
+        "projectUniqueName": "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Application\\Medical.Application.csproj",
         "projectName": "Medical.Application",
-        "projectPath": "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Application\\Medical.Application.csproj",
+        "projectPath": "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Application\\Medical.Application.csproj",
         "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Application\\obj\\",
+        "outputPath": "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vladi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Domain\\Medical.Domain.csproj": {
-                "projectPath": "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Domain\\Medical.Domain.csproj"
+              "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Domain\\Medical.Domain.csproj": {
+                "projectPath": "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Domain\\Medical.Domain.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Domain\\Medical.Domain.csproj": {
+    "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Domain\\Medical.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Domain\\Medical.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Domain\\Medical.Domain.csproj",
         "projectName": "Medical.Domain",
-        "projectPath": "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Domain\\Medical.Domain.csproj",
+        "projectPath": "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Domain\\Medical.Domain.csproj",
         "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Domain\\obj\\",
+        "outputPath": "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vladi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -134,14 +134,14 @@
         }
       }
     },
-    "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Persistence\\Medical.Persistence.csproj": {
+    "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Persistence\\Medical.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Persistence\\Medical.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Persistence\\Medical.Persistence.csproj",
         "projectName": "Medical.Persistence",
-        "projectPath": "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Persistence\\Medical.Persistence.csproj",
+        "projectPath": "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Persistence\\Medical.Persistence.csproj",
         "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vladi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -158,11 +158,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Application\\Medical.Application.csproj": {
-                "projectPath": "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Application\\Medical.Application.csproj"
+              "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Application\\Medical.Application.csproj": {
+                "projectPath": "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Application\\Medical.Application.csproj"
               },
-              "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Domain\\Medical.Domain.csproj": {
-                "projectPath": "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Domain\\Medical.Domain.csproj"
+              "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Domain\\Medical.Domain.csproj": {
+                "projectPath": "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Domain\\Medical.Domain.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2gBfwdMtBK7c2Z4ASJ6Lbq4NLvGJqCHjRHGBVL6NONqY8TH/P2ag7vifwCUrMBKKSHQHrD4voYZLifch85zGWA==",
+  "dgSpecHash": "h0Fcp9Fi3JyoOaI2m8XZIK1eA+EgMtxh0E1JLgDAqI5tUOEwe1PPw5hp19YcqYcIW4Yc3yr0YWECic8uBOMl1A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vladi\\source\\repos\\Medical\\Medical.Persistence\\Medical.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\vladi\\source\\Medical\\Practice_Medical\\Medical.Persistence\\Medical.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vladi\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\vladi\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
