@@ -1,3 +1,4 @@
+using Medical.Application.Interfaces;
 using Medical.Persistence;
 using Medical.Persistence.EntityTypeContext;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -23,11 +24,11 @@ namespace Medical.WebApi
 
             WebApplication app = builder.Build();
             
-
             _ = Task.Run(() => Initializer.Initialize(
                 app.Services.CreateScope()
                 .ServiceProvider.GetRequiredService<DataBaseContext>()
                 ));
+            
 
             if (app.Environment.IsDevelopment())
             {
