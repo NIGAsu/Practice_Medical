@@ -349,7 +349,7 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 /.vs
-/Medical.WebApi/appsettings.json
+/Medical.WebApi/appsettings.Development.json
 /Medical.WebApi/appsettings.json
 /Medical.WebApi/bin
 /Medical.WebApi/obj
